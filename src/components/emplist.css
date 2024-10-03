@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family: Poppins;
+}
+.count{
+    width: 100%;
+    background-color: aliceblue;
+    padding: 2rem;
+    padding-top: 1rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
+
+.searchBox{
+    display: flex;
+    justify-content: right;
+}
+
+.search{
+    margin-left: 1rem;
+    margin-right: 2rem;
+    border-radius: 0.3rem;
+    font-weight: 500;
+}
+.search:hover{
+    padding: .1rem;
+    transition: .5s ease;
+    cursor: pointer;
+}
+
+.createEmp{
+    position: absolute;
+    background-color: rgb(174, 235, 81);
+    padding: .5rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    transition: 0.5s ease;
+    right: 5%;
+    top:22%;
+}
+.createEmp:hover{
+    cursor: pointer;
+    font-size: .9rem;
+    padding: .6rem;
+    right: 4%;
+    top:21%;
+}
+
+.split{
+    display: flex;
+    flex-direction: row;
+}
+
+.item1{
+    flex: 2;
+}
+.item2{
+    flex: 1;
+}
+
+.nodata{
+    height: 32rem;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.empty{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.header{
+    background-color: aliceblue;
+}
+.header table{
+    width: 100%;
+}
+.header table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse; /* Ensures no double borders */
+}
+.header table th{
+    padding: 1rem;
+    padding-bottom: 2rem;
+}
+.header table td{
+    padding: 1rem;
+}
+

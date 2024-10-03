@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.container{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    font-family: Poppins;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#logo{
+    position: absolute;
+    top:0;
+    left: 0;
+}
+
+.content{
+    position: relative;
+    width: 50%;
+    height: 50%;
+    border: 0.2rem solid rgb(46, 162, 208);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.8rem;
+    box-shadow: 1rem 1rem 1rem rgb(62, 174, 219) ;
+    margin-bottom: 2rem;
+}
+
+.loginform{
+    position: relative;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    padding: 5rem;
+}
+
+.user{
+    width: 50%;
+    height: 2rem;
+    margin-bottom: 1rem;
+    border-radius: .5rem;
+    border:0cap;
+    box-shadow: .3rem .3rem 1rem rgb(62, 174, 219);
+}
+.user:hover{
+    border: .1rem solid rgb(62, 174, 219);
+}
+
+.pass{
+    width: 50%;
+    height: 2rem;
+    margin-bottom: 5rem;
+    border-radius: .5rem;
+    border:0cap;
+    box-shadow: .3rem .3rem 1rem rgb(62, 174, 219);
+}
+.pass:hover{
+    border: .1rem solid rgb(62, 174, 219);
+}
+
+
+.signin{
+    width: 30%;
+    height: 2rem;
+    margin-left: 35%;
+    background-color:  rgb(62, 174, 219);
+    font-size: 1rem;
+    border-radius: 2rem;
+}
+.signin:hover{
+    cursor: pointer;
+    background-color:  rgb(111, 214, 255)
+}
+
+.errormessage {
+    position: absolute;
+    top: 75%;
+    opacity: 0;
+    transform: translateY(-10px); 
+    transition: opacity 0.7s ease, transform 1s ease;
+    color: red;
+}
+
+.errormessage.show {
+    opacity: 1;
+    transform: translateY(0); 
+}
